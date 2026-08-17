@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Welcome to My Blog
-
 Hi, I'm Gino — this is where I write about ERP strategy, technology leadership, and whatever else catches my interest along the way.
 
 Check out the [About](/about/) page to learn more, or scroll down for recent posts.
