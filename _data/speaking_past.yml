@@ -1,0 +1,13 @@
+# Add a new entry at the top of this list for each past engagement.
+# date: use YYYY-MM-DD so entries can be sorted/formatted consistently
+# media_url: link to the OneDrive share for slides/recording
+
+- event: "NAVUG Summit"
+  session: "From Navision to Business Central: A Migration Playbook"
+  date: 2026-05-14
+  media_url: "https://onedrive.live.com/REPLACE-WITH-YOUR-SHARE-LINK"
+
+- event: "Manufacturing Tech Forum"
+  session: "Distribution Process Optimization with Dynamics 365"
+  date: 2026-02-03
+  media_url: "https://onedrive.live.com/REPLACE-WITH-YOUR-SHARE-LINK"
