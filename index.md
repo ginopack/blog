@@ -17,18 +17,8 @@ Some of what you can expect:
 - **Microsoft 365 integration** — connecting Business Central with Power Platform, Teams, and the rest of the ecosystem
 - Occasional recaps from conferences and user groups I've spoken at
 
-Curious about my background? Head over to [About](/about/). If you're looking for talk recordings or slides, check out [Speaking Engagements](/speaking/).
+Curious about my background? Head over to [About](/blog/about/). If you're looking for talk recordings or slides, check out [Speaking Engagements](/blog/speaking/).
 
 Thanks for stopping by — feel free to connect below.
 
-<div style="display: flex; gap: 16px; align-items: center; margin: 24px 0;">
-  <a href="https://www.linkedin.com/in/gino-pack/" target="_blank" rel="noopener" title="LinkedIn">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" width="24" height="24" alt="LinkedIn" style="filter: invert(20%);">
-  </a>
-  <a href="https://github.com/ginopack" target="_blank" rel="noopener" title="GitHub">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" width="24" height="24" alt="GitHub" style="filter: invert(20%);">
-  </a>
-  <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener" title="Twitter">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/x.svg" width="24" height="24" alt="Twitter/X" style="filter: invert(20%);">
-  </a>
-</div>
+<div style="display: flex; gap: 16px; align-items: center; margin: 24px 0;"> <a href="https://www.linkedin.com/in/gino-pack/" target="_blank" rel="noopener" title="LinkedIn"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" width="24" height="24" alt="LinkedIn" style="filter: invert(20%);"> </a> <a href="https://github.com/ginopack" target="_blank" rel="noopener" title="GitHub"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" width="24" height="24" alt="GitHub" style="filter: invert(20%);"> </a> <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener" title="Twitter"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/x.svg" width="24" height="24" alt="Twitter/X" style="filter: invert(20%);"> </a> <a href="https://www.youtube.com/@GinoPackD365BC" target="_blank" rel="noopener" title="YouTube"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/youtube.svg" width="24" height="24" alt="YouTube" style="filter: invert(20%);"> </a> </div>
