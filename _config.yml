@@ -1,5 +1,6 @@
 title: Gino Pack's Blog
 description: Let's Learn Together
+author: Gino Pack
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog — leave empty if using a *.github.io repo
 url: "https://ginopack.github.io" # the base hostname & protocol, e.g. https://username.github.io
@@ -7,6 +8,13 @@ url: "https://ginopack.github.io" # the base hostname & protocol, e.g. https://u
 
 # Build settings
 theme: minima #change theme eventually
+
+minima:
+  social_links:
+    twitter: ginopack
+    linkedin: gino-pack
+    github: ginopack
+    
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
