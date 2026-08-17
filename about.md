@@ -30,7 +30,7 @@ I partner with executive stakeholders to shape solution direction, guide decisio
     <strong>AB-730</strong>
   </div>
   <div style="text-align: center; max-width: 140px;">
-    <img src="{{ '/assets/certifications/MB800.webp' | relative_url }}" alt="MB-800 Certification Badge" width="120" height="120" style="display: block; margin: 0 auto 8px;">
+    <img src="{{ '/assets/certs/MB800.webp' | relative_url }}" alt="MB-800 Certification Badge" width="120" height="120" style="display: block; margin: 0 auto 8px;">
     <strong>MB-800</strong>
   </div>
 </div>
