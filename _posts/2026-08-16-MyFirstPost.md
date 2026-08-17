@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing My Blog Layout"
 date:   2026-08-16 10:00:00 -0700
-categories: general testing
+categories: Testing
 ---
 
 This post exists purely to stress-test the blog's **Markdown rendering** and *typography* before I start writing real content.
