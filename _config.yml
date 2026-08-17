@@ -9,6 +9,13 @@ url: "https://ginopack.github.io" # the base hostname & protocol, e.g. https://u
 
 # Build settings
 theme: minima #change theme eventually
+
+# Controls which pages appear in the header nav, and in what order
+header_pages:
+  - about.md
+  - posts.md
+  - categories.md
+  - speaking-engagements.md
     
 plugins:
   - jekyll-feed
