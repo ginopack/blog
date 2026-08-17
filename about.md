@@ -21,8 +21,18 @@ I focus on building scalable processes, enabling high-performing teams, and alig
 
 I partner with executive stakeholders to shape solution direction, guide decision-making, and ensure technology roadmaps deliver measurable business outcomes.
 
----
 
-This blog is where I write about the things I'm learning and building — ERP strategy, technology leadership, and whatever else catches my interest along the way.
+## Credentials
+ 
+<div style="display: flex; gap: 32px; flex-wrap: wrap; margin: 20px 0;">
+  <div style="text-align: center; max-width: 140px;">
+    <img src="{{ '/assets/certs/AB730.png' | relative_url }}" alt="AB-730 Certification Badge" width="120" height="120" style="display: block; margin: 0 auto 8px;">
+    <strong>AB-730</strong>
+  </div>
+  <div style="text-align: center; max-width: 140px;">
+    <img src="{{ '/assets/certifications/MB800.webp' | relative_url }}" alt="MB-800 Certification Badge" width="120" height="120" style="display: block; margin: 0 auto 8px;">
+    <strong>MB-800</strong>
+  </div>
+</div>
 
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/gino-pack/).*
