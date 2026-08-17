@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="{{ '/assets/profile.png' | relative_url }}" alt="Gino Pack" width="150" height="150" style="border-radius: 50%; object-fit: cover; display: block; margin-bottom: 16px;">
+<img src="{{ '/assets/profile.PNG' | relative_url }}" alt="Gino Pack" width="150" height="150" style="border-radius: 50%; object-fit: cover; display: block; margin-bottom: 16px;">
 
 # Hey, I'm Gino 👋
 
