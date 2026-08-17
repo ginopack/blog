@@ -136,3 +136,41 @@ html.theme-dark {
 .site-header .wrapper {
   padding-right: $spacing-unit * 2;
 }
+
+// Display the auto-generated post list as a 3-column grid instead of
+// a single stacked column.
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $spacing-unit;
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 0;
+}
+
+.post-list .post-meta {
+  display: block;
+}
+
+.post-list h3 {
+  margin-top: 4px;
+  font-size: 20px;
+}
+
+// Drop to 2 columns on tablets, 1 column on phones so cards don't
+// get squeezed too narrow.
+@media screen and (max-width: 800px) {
+  .post-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include media-query($on-palm) {
+  .post-list {
+    grid-template-columns: 1fr;
+  }
+}
