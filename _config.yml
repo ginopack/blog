@@ -6,7 +6,7 @@ url: "https://ginopack.github.io" # the base hostname & protocol, e.g. https://u
 
 
 # Build settings
-theme: minima
+theme: minima #change theme eventually
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
