@@ -5,11 +5,17 @@ permalink: /categories/
 ---
 
 {% assign cats = site.categories | sort %}
-<ul>
 {% for cat in cats %}
+
+## {{ cat[0] }} <span style="font-weight: normal; color: #828282;">({{ cat[1] | size }})</span>
+
+<ul>
+{% for post in cat[1] %}
   <li>
-    <a href="{{ cat[0] | slugify | prepend: '/category/' | append: '/' | relative_url }}">{{ cat[0] }}</a>
-    ({{ cat[1] | size }})
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span style="color: #828282; font-size: 0.85em;"> &mdash; {{ post.date | date: "%b %-d, %Y" }}</span>
   </li>
 {% endfor %}
 </ul>
+
+{% endfor %}
