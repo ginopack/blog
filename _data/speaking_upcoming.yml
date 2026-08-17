@@ -1,0 +1,11 @@
+# Add a new entry at the top of this list for each upcoming engagement.
+# session: the title/topic of your talk
+# url: link to the event page
+
+- event: "Dynamics Community Summit"
+  session: "Modernizing ERP: Lessons from Multi-Cloud Dynamics Implementations"
+  url: "https://example.com/dynamics-community-summit"
+
+- event: "Directions NA"
+  session: "AI-Driven Process Optimization in Business Central"
+  url: "https://example.com/directions-na"
