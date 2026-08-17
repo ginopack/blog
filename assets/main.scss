@@ -131,3 +131,8 @@ html.theme-dark {
   opacity: 1;
   transform: scale(1.1);
 }
+
+// Pull the nav + toggle group in from the right edge a bit
+.site-header .wrapper {
+  padding-right: $spacing-unit * 2;
+}
