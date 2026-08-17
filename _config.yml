@@ -6,6 +6,7 @@ email: gino@ginopack.com
 baseurl: "/blog" # the subpath of your site, e.g. /blog — leave empty if using a *.github.io repo
 url: "https://ginopack.github.io" # the base hostname & protocol, e.g. https://username.github.io
 
+github_username: ginopack
 
 # Build settings
 theme: minima #change theme eventually
