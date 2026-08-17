@@ -93,8 +93,7 @@ $grey-color-dark:   darken($grey-color, 25%);
   }
 
   #theme-toggle {
-    color: #e8e8e8;
-    border-color: #4a4a4a;
+    opacity: 0.85;
   }
 }
 
@@ -112,17 +111,23 @@ html.theme-dark {
   @include dark-theme-styles;
 }
 
-// Toggle button base styles (both light and dark states)
+// Toggle button: icon-only, no button chrome, sits inline with nav links
 #theme-toggle {
   cursor: pointer;
   background: none;
-  border: 1px solid $grey-color-light;
-  border-radius: 6px;
-  padding: 4px 10px;
-  font-size: 14px;
-  line-height: 1.5;
-  color: $text-color;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1;
+  vertical-align: middle;
   float: right;
-  margin-top: 8px;
-  margin-left: 12px;
+  margin-top: 24px;
+  margin-left: 16px;
+  opacity: 0.75;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+#theme-toggle:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
