@@ -1,0 +1,54 @@
+<script>
+  // Runs immediately (before body renders) to avoid a flash of the wrong theme.
+  (function () {
+    var stored = localStorage.getItem('theme');
+    if (stored === 'dark') {
+      document.documentElement.classList.add('theme-dark');
+    } else if (stored === 'light') {
+      document.documentElement.classList.add('theme-light');
+    }
+    // If nothing is stored, the CSS media query handles it automatically.
+  })();
+</script>
+
+<script>
+  // Adds the toggle button once the header exists in the DOM.
+  document.addEventListener('DOMContentLoaded', function () {
+    var button = document.createElement('button');
+    button.id = 'theme-toggle';
+    button.type = 'button';
+    button.setAttribute('aria-label', 'Toggle dark mode');
+
+    function currentlyDark() {
+      return document.documentElement.classList.contains('theme-dark') ||
+        (!document.documentElement.classList.contains('theme-light') &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+
+    function updateLabel() {
+      button.textContent = currentlyDark() ? '☀️ Light' : '🌙 Dark';
+    }
+
+    button.addEventListener('click', function () {
+      if (currentlyDark()) {
+        document.documentElement.classList.remove('theme-dark');
+        document.documentElement.classList.add('theme-light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.classList.remove('theme-light');
+        document.documentElement.classList.add('theme-dark');
+        localStorage.setItem('theme', 'dark');
+      }
+      updateLabel();
+    });
+
+    updateLabel();
+
+    var header = document.querySelector('.site-header .wrapper');
+    if (header) {
+      header.appendChild(button);
+    } else {
+      document.body.insertBefore(button, document.body.firstChild);
+    }
+  });
+</script>

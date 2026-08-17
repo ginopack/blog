@@ -9,7 +9,7 @@ url: "https://ginopack.github.io" # the base hostname & protocol, e.g. https://u
 github_username: ginopack
 
 # Build settings
-theme: jekyll-theme-cayman #change theme eventually
+theme: minima # this is the only theme compatible with a blog using Github Pages. Do NOT change the theme.
 
 # Controls which pages appear in the header nav, and in what order
 header_pages:

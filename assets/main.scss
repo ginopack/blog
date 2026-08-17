@@ -1,0 +1,127 @@
+---
+---
+
+// Override Minima's default color variables before the theme loads.
+// Reference: https://github.com/jekyll/minima/blob/v2.5.1/_sass/minima.scss
+
+$text-color:       #1a1a1a;
+$background-color: #ffffff;
+$brand-color:      #0a66c2;
+
+$grey-color:       #6e6e6e;
+$grey-color-light:  lighten($grey-color, 40%);
+$grey-color-dark:   darken($grey-color, 25%);
+
+@import "minima";
+
+// ---------------------------------------------------------------
+// Dark mode styles, shared between:
+//   1) automatic OS/browser dark mode (prefers-color-scheme)
+//   2) the manual toggle button (adds .theme-dark to <html>)
+// ---------------------------------------------------------------
+@mixin dark-theme-styles {
+  color-scheme: dark;
+  background-color: #1b1b1b;
+  color: #e8e8e8;
+
+  a {
+    color: #6cb6ff;
+  }
+  a:visited {
+    color: #a68be0;
+  }
+
+  .site-header {
+    background-color: #1b1b1b;
+    border-top-color: #3a3a3a;
+    border-bottom-color: #3a3a3a;
+  }
+
+  .site-title,
+  .site-title:visited {
+    color: #e8e8e8 !important;
+  }
+
+  .site-nav .page-link {
+    color: #e8e8e8;
+  }
+
+  .site-footer {
+    background-color: #1b1b1b;
+    border-top-color: #3a3a3a;
+  }
+
+  .footer-heading,
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .contact-list,
+  .social-media-list {
+    color: #b0b0b0;
+  }
+
+  .footer-copyright {
+    color: #8a8a8a !important;
+    border-top-color: #3a3a3a !important;
+  }
+
+  pre,
+  code {
+    background-color: #2b2b2b;
+    color: #e8e8e8;
+  }
+
+  blockquote {
+    color: #b0b0b0;
+    border-left-color: #3a3a3a;
+  }
+
+  hr {
+    border-top-color: #3a3a3a;
+  }
+
+  table th,
+  table td {
+    border-color: #3a3a3a;
+  }
+  table tr:nth-child(even) {
+    background-color: #232323;
+  }
+
+  img {
+    filter: brightness(0.92);
+  }
+
+  #theme-toggle {
+    color: #e8e8e8;
+    border-color: #4a4a4a;
+  }
+}
+
+// Automatic: applies when the OS prefers dark AND the visitor
+// hasn't manually chosen light mode via the toggle.
+@media (prefers-color-scheme: dark) {
+  html:not(.theme-light) {
+    @include dark-theme-styles;
+  }
+}
+
+// Manual: applies when the toggle has explicitly set dark mode,
+// regardless of the OS setting.
+html.theme-dark {
+  @include dark-theme-styles;
+}
+
+// Toggle button base styles (both light and dark states)
+#theme-toggle {
+  cursor: pointer;
+  background: none;
+  border: 1px solid $grey-color-light;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $text-color;
+  float: right;
+  margin-top: 8px;
+}
